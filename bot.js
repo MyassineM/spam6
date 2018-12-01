@@ -1,17 +1,17 @@
+
+
+
 const Discord = require('discord.js');
 const client = new Discord.Client();
-
-client.on('ready', () => {
-  console.log(`Logged in as ${client.user.tag}!`);  
-});
+console.log("Scrpit By Dream");
 
 
-client.on('ready', async() => {
-var server = "Id server"; /513327837013606430/ ايدي السررفر
-var channel = "id room";/518441460366835724/ايدي الروم
-    setInterval(()=>{
-    client.guilds.get(server).channels.get(channel).send('**Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam , **')
-    },305);
+client.on("ready", () => {
+let channel =     client.channels.get("506385954039267338")
+setInterval(function() {
+channel.send(`abcefghijklmnopqrstuvwyzabcefghijklmnopqrstuvwyzabcefghijklmnopqrstuvwyzabcefghijklmnopqrstuvwyzabcefghijklmnopqrstuvwyzabcefghijklmnopqrstuvwyzabcefghijklmnopqrstuvwyzabcefghijklmnopqrstuvwyzabcefghijklmnopqrstuvwyzabcefghijklmnopqrstuvwyzabcefghijklmnopqrstuvwyzabcefghijklmnopqrstuvwyzabcefghijklmnopqrstuvwyzabcefghijklmnopqrstuvwyzabcefghijklmnopqrstuvwyzabcefghijklmnopqrstuvwyzabcefghijklmnopqrstuvwyzabcefghijklmnopqrstuvwyzabcefghijklmnopqrstuvwyzabcefghijklmnopqrstuvwyzabcefghijklmnopqrstuvwyzabcefghijklmnopqrstuvwyzabcefghijklmnopqrstuvwyzabcefghijklmnopqrstuvwyzabcefghijklmnopqrstuvwyzabcefghijklmnopqrstuvwyzabcefghijklmnopqrstuvwyzabcefghijklmnopqrstuvwyzabcefghijklmnopqrstuvwyzabcefghijklmnopqrstuvwyzabcefghijklmnopqrstuvwyzabcefghijklmnopqrstuvwyzabcefghijklmnopqrstuvwyzabcefghijklmnopqrstuvwyzabcefghijklmnopqrstuvwyzabcefghijklmnopqrstuvwyzabcefghijklmnopqrstuvwyzabcefghijklmnopqrstuvwyzabcefghijklmnopqrstuvwyzabcefghijklmnopqrstuvwyzabcefghijklmnopqrstuvwyzabcefghijklmnopqrstuvwyzabcefghijklmnopqrstuvwyzabcefghijklmnopqrstuvwyzabcefghijklmnopqrstuvwyzabcefghijklmnopqrstuvwyzabcefghijklmnopqrstuvwyzabcefghijklmnopqrstuvwyzabcefghijklmnopqrstuvwyzabcefghijklmnopqrstuvwyzabcefghijklmnopqrstuvwyzabcefghijklmnopqrstuvwyzabcefghijklmnopqrstuvwyzabcefghijklmnopqrstuvwyzabcefghijklmnopqrstuvwyzabcefghijklmnopqrstuvwyzabcefghijklmnopqrstuvwyzabcefghijklmnopqrstuvwyzabcefghijklmnopqrstuvwyzabcefghijklmnopqrstuvwyz`);
+}, 25)
 })
-
-client.login(NTA2Mzg1OTU0MDM5MjY3MzM4.DuQ5Nw.sLkUeErW9UUn0hFVK45dPrZzBh0);
+ 
+ 
+client.login('NTA2Mzg1OTU0MDM5MjY3MzM4.DuQ5Nw.sLkUeErW9UUn0hFVK45dPrZzBh0');
