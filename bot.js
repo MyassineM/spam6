@@ -1,17 +1,17 @@
-const Discord = require("discord.js");
+const Discord = require('discord.js');
 const client = new Discord.Client();
-var prefix = "+";
+
 client.on('ready', () => {
-   console.log(`----------------`);
-      console.log(`Cyhper Bot Script By : DREAM`);
-        console.log(`----------------`);
-      console.log(`ON ${client.guilds.size} Servers '     Script By : DREAM ' `);
-    console.log(`----------------`);
-  console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`TEXT`,"http://twitch.tv/Dream")
-client.user.setStatus("dnd")
+  console.log(`Logged in as ${client.user.tag}!`);  
 });
 
 
+client.on('ready', async() => {
+var server = "Id server"; // 513327837013606430
+var channel = "id room";//518441460366835724
+    setInterval(()=>{
+    client.guilds.get(server).channels.get(channel).send('** !Mc Community ,!Mc Community , !Mc Community,!Mc Community,!Mc Community,!Mc Community,!Mc Community,!Mc Community,!Mc Community,!Mc Community,!Mc Community,!Mc Community,!Mc Community,!Mc Community,!Mc Community,!Mc Community,!Mc Community,!Mc Community,!Mc Community,!Mc Community,!Mc Community,!Mc Community,!Mc Community,!Mc Community,!Mc Community,!Mc Community,!Mc Community,!Mc Community,!Mc Community,!Mc Community,!Mc Community,!Mc Community,!Mc Community,!Mc Community,!Mc Community,!Mc Community,!Mc Community,!Mc Community,!Mc Community,!Mc Community,!Mc Community,!Mc Community,!Mc Community,!Mc Community,!Mc Community,!Mc Community,!Mc Community,!Mc Community,!Mc Community,!Mc Community,!Mc Community,!Mc Community,!Mc Community,!Mc Community,!Mc Community,!Mc Community,!Mc Community,!Mc Community,!Mc Community,!Mc Community,!Mc Community,!Mc Community,!Mc Community,!Mc Community,!Mc Community,!Mc Community,!Mc Community,!Mc Community,!Mc Community,!Mc Community,!Mc Community,!Mc Community,!Mc Community,!Mc Community,!Mc Community,!Mc Community,!Mc Community,!Mc Community,!Mc Community,!Mc Community,!Mc Community,!Mc Community,!Mc Community,!Mc Community, **')
+    },305);
+})
 
-client.login(process.env.BOT_TOKEN);// لا تغير فيها شيء
+client.login(NTA2Mzg1OTU0MDM5MjY3MzM4.DuQ5Nw.sLkUeErW9UUn0hFVK45dPrZzBh0)
